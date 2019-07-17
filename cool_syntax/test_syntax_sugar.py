@@ -19,3 +19,8 @@ print(three(5))
 factor = 2
 a = input('Please input your number: ')
 print(factor * int(a))
+
+# test filter
+a = [1,2,3,4,5,6]    
+list = [i for i in filter(lambda a: a%2 == 1, a)]
+print(list)
